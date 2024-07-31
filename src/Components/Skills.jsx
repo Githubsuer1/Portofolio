@@ -28,19 +28,6 @@ function Skills(){
                             </ul> 
                         </div>
                     
-                    
-
-
-                        <div className="p-4">
-                            <h1 className="bg-transparent font-bold ">Proficiency Level</h1>
-                            <ul className="list-disc">
-                                <li>Python: Intermediate</li>
-                                <li>Django: Basic</li>
-                                <li>React: Intermediate</li>
-                                <li>Javascript: Intermediate </li>
-                                <li>Tailwind CSS: Basic </li>
-                            </ul>
-                        </div>
 
                         <div className="p-4">
                             <h1 className="bg-transparent font-bold ">Certification</h1>
