@@ -16,11 +16,11 @@ const Header = ()=>{
             <div className="flex justify-between">
 
                 {/* Logo or name */}
-                <div className="flex items-center" >
+                <div className="flex items-center justify-center border-2 rounded-lg px-2.5" >
                     <NavLink 
                     className="text-white text-md sm:text-xl font-bold" 
                     to='#'>
-                    Siddhant Mishra</NavLink>
+                    S</NavLink>
                 </div>
 
                 {/* this clickable div will be hidden for larger device and visible for smaller device */}
@@ -50,7 +50,7 @@ const Header = ()=>{
                     className={({isActive})=>`sm:bg-transparent bg-gray-600 text-white text-md sm:text-lg font-bold px-1.5 rounded 
                     ${isActive ? "text-red-500" : "text-white" }`} 
                     to='/work'
-                >Project</NavLink>
+                >Work</NavLink>
 
                 <NavLink 
                     className={({isActive})=>`sm:bg-transparent bg-gray-600 text-white text-md sm:text-lg font-bold px-1.5 rounded 
@@ -79,7 +79,7 @@ const Header = ()=>{
                     className={({isActive})=>`sm:bg-transparent bg-gray-600 text-white text-md sm:text-lg font-bold px-1.5 rounded 
                     ${isActive ? "text-red-500" : "text-white" }`} 
                     to='/work'
-                >Project</NavLink>
+                >Work</NavLink>
 
                 <NavLink 
                     className={({isActive})=>`sm:bg-transparent bg-gray-600 text-white text-md sm:text-lg font-bold px-1.5 rounded 
