@@ -5,9 +5,9 @@ const Footer = ()=>{
         <div className="w-full bg-gray-800 text-white p-4 sm:fixed bottom-0 flex flex-col sm:flex-row sm:justify-between">
             <div>
                 <Link
-                    className='hover:underline' 
+                    className='hover:underline hover:text-red-400' 
                     to='/email'>
-                    Mail Us: mishrasiddhant560@gmail.com
+                    Send us Message
                 </Link>
             </div>
             <div>All Rights reserved.</div>
