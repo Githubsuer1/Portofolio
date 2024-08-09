@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom"
 
 const Work = ()=>{
     return (
-        <div className="w-full bg-purple-400 h-full p-5  grid justify-items-center gap-3">
+        <div className="w-full bg-gray-800 h-full p-5  grid justify-items-center gap-3">
         
-        <div className="p-4 w-full max-w-xl bg-white/40 shadow-2xl grid grid-cols-1 sm:grid-cols-1  justify-items-center gap-3">
+        <div className="p-4 w-full max-w-xl grid grid-cols-1 sm:grid-cols-1 rounded justify-items-center gap-3">
 
         
            <div className="w-full  max-w-sm">
@@ -13,7 +13,7 @@ const Work = ()=>{
                     className=' bg-white/40 rounded shadow-2xl p-8  box-border flex flex-col gap-3 overflow-hidden'
                 >
                     
-                    <p className='text-center py-2.5 bg-blue-400 rounded'>Todo List </p>
+                    <p className='text-center py-2.5   text-green-300 rounded'>Todo List </p>
                 </NavLink>  
             </div>
 
@@ -23,7 +23,7 @@ const Work = ()=>{
                     className=' bg-white/40 rounded shadow-2xl p-8  box-border flex flex-col gap-3 overflow-hidden'
                 >
                     
-                    <p className='text-center py-2.5 bg-blue-400 rounded'>Todo Using RTK</p>
+                    <p className='text-center py-2.5   text-green-300 rounded'>Todo Using RTK</p>
                 </NavLink>  
             </div>
 
@@ -33,7 +33,7 @@ const Work = ()=>{
                     className=' bg-white/40 rounded shadow-2xl p-8   box-border flex flex-col gap-3 overflow-hidden'
                 >
                     
-                    <p className='text-center py-2.5  bg-blue-400 rounded'>Weather App</p>
+                    <p className='text-center py-2.5   text-green-300 rounded'>Weather App</p>
                 </NavLink>  
             </div>  
 
@@ -43,7 +43,7 @@ const Work = ()=>{
                     className=' bg-white/40 rounded shadow-2xl p-8   box-border flex flex-col gap-3 overflow-hidden'
                 >
                     
-                    <p className='text-center py-2.5 bg-blue-400 rounded'>Calculator</p>
+                    <p className='text-center py-2.5   text-green-300 rounded'>Calculator</p>
                 </NavLink>  
             </div> 
 
@@ -53,7 +53,7 @@ const Work = ()=>{
                     className=' bg-white/40 rounded shadow-2xl p-8   box-border flex flex-col gap-3 overflow-hidden'
                 >
                     
-                    <p className='text-center py-2.5 bg-blue-400 rounded'>Password Generator</p>
+                    <p className='text-center py-2.5  text-green-300 rounded'>Password Generator</p>
                 </NavLink>  
             </div> 
 
@@ -63,7 +63,7 @@ const Work = ()=>{
                     className=' bg-white/40 rounded shadow-2xl p-8  box-border flex flex-col gap-3 overflow-hidden'
                 >
                     
-                    <p className='text-center py-2.5 bg-blue-400 rounded'>Currency Converter</p>
+                    <p className='text-center py-2.5   text-green-300 rounded'>Currency Converter</p>
                 </NavLink>  
             </div> 
 
@@ -72,7 +72,7 @@ const Work = ()=>{
                     to=''
                     className=' bg-white/40 rounded shadow-2xl p-8  box-border flex flex-col gap-3 overflow-hidden'
                 >
-                    <p className='text-center py-2.5 bg-blue-400 rounded'>Shoping Cart</p>
+                    <p className='text-center py-2.5   text-green-400 rounded'>Shoping Cart</p>
                 </NavLink>  
             </div> 
             
@@ -82,7 +82,7 @@ const Work = ()=>{
                     className=' bg-white/40 rounded shadow-2xl p-8   box-border flex flex-col gap-3 overflow-hidden'
                 >
                     
-                    <p className='text-center py-2.5 bg-blue-400 rounded'>BMI Generator</p>
+                    <p className='text-center py-2.5  border-green-300 text-green-300 rounded'>BMI Generator</p>
                 </NavLink>  
             </div> 
             </div>

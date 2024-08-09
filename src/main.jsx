@@ -6,6 +6,7 @@ import About from './Components/About.jsx'
 import Contact from './Components/Contact.jsx'
 import Work from './Components/Work.jsx'
 import Skills from './Components/Skills.jsx'
+import Email from './Components/Email.jsx'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:'/skills',
         element:<Skills />
+      },
+      {
+        path:'/email',
+        element:<Email />
       }
     ]
   }

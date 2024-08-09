@@ -1,12 +1,12 @@
 function Skills(){
     return (
-        <div className="w-full h-full  bg-purple-400 p-8">
+        <div className="w-full h-full sm:h-screen  bg-gray-800 text-white p-8">
 
             <div className="w-full h-full md:screen grid justify-items-center grid-rows-1 rounded ">
 
                 <div className="w-full max-w-lg p-5 h-full shadow-2xl bg-white/20 rounded">
 
-                    <h1 className="bg-white/20 py-1.5 px-4 rounded font-bold ">Skills</h1>
+                    <h1 className="border-2 border-green-300 text-green-300 py-1.5 px-4 rounded font-bold ">Skills</h1>
 
                         <div className="p-4">
                             <h1 className="bg-transparent font-bold ">Technology</h1>
