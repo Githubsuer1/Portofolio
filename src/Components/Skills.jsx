@@ -12,7 +12,7 @@ function Skills(){
                             <h1 className="bg-transparent font-bold ">Technology</h1>
                             <ul className="list-disc ">
                                 <li>Javascript (DOM Manipulation, Event Handling, Objects)</li>
-                                <li>Python (OOP, Functions, Operators, Basic Data Structures)</li>
+                                <li>Python (OOP,Data types, Functions, Operators)</li>
                                 <li>React (Hooks, React Router, Redux Toolkit, Context API)</li>
                                 <li>Django (Views, Models, Forms, Authentication, Admin Panel, MVT)</li>
                                 <li>Tailwind CSS (Responsive Design, Utility first approach)</li>
