@@ -49,7 +49,7 @@ const Work = ()=>{
 
             <div className="w-full  max-w-sm">
             <NavLink 
-                    to=''
+                    to='https://githubsuer1.github.io/PasswordGenerator/'
                     className=' bg-white/40 rounded shadow-2xl p-8   box-border flex flex-col gap-3 overflow-hidden'
                 >
                     
