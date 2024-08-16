@@ -33,7 +33,7 @@ const Header = ()=>{
             </div>
             
             {/* this will be going to show when width will be smaller otherwise will be hidden */}
-            <div className={`sm:hidden ${!open ? "hidden" : "grid grid-cols-1 gap-2 mt-2"}`}>
+            <div className={`sm:hidden  ${!open ? "hidden" : "grid grid-cols-1 gap-2 mt-2 "}`}>
                 <NavLink 
                     className={({isActive})=>`sm:bg-transparent bg-gray-600 text-white text-md sm:text-lg font-bold px-1.5 rounded 
                     ${ isActive ? 'text-red-500' : "text-white" }`} 
