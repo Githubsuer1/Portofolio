@@ -69,10 +69,10 @@ const Work = ()=>{
 
             <div className="w-full  max-w-sm">
             <NavLink 
-                    to=''
+                    to='https://githubsuer1.github.io/Mosquito-Killing/'
                     className=' bg-white/40 rounded shadow-2xl p-8  box-border flex flex-col gap-3 overflow-hidden'
                 >
-                    <p className='text-center py-2.5   text-green-400 rounded'>Shoping Cart</p>
+                    <p className='text-center py-2.5   text-green-400 rounded'>Mosquito Kill</p>
                 </NavLink>  
             </div> 
             
