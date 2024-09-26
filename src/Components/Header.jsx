@@ -11,6 +11,7 @@ const Header = ()=>{
         setOpen((prev)=>!prev)
     }
 
+    // function to switch theme from dark to light
     const ChangeTheme = ()=>{
             setDark((prev)=>!prev)
         }

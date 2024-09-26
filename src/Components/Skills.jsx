@@ -20,6 +20,8 @@ function Skills(){
                                 <li>Javascript (DOM Manipulation, Event Handling, Objects)</li>
                                 <li>React (Hooks, React Router, Redux Toolkit, Context API)</li>
                                 <li>Python (OOP,Data types, Functions, Operators)</li>
+                                <li>Djangp (Model, View, Template, Authentication) </li>
+                                <li>Git and github</li>
                             </ul>
 
                         </div>
